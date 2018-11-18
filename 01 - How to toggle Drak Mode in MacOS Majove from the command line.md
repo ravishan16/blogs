@@ -31,15 +31,15 @@ osascript -e 'tell application \"System Events\"' -e 'tell appearance preference
 
 Note: First time when you invoke this you will get an alert requesting permission to control system preferences from terminal hit ok if you are good with this. 
 
+## Creat alias in  .bash_profile to assign shortcut to the osascript command. 
 
-Creat alias in  .bash_profile to assign shortcut to the osascript command. 
-```shell
 Add this to ~/.bash_profile
-
+```shell
 alias dm="osascript -e 'tell application \"System Events\"' -e 'tell appearance preferences' -e 'set dark mode to not dark mode' -e 'end tell' -e 'end tell'"
+```
 
 Reload
-
+```shell
 source ~/.bash_profile
 ```
 
