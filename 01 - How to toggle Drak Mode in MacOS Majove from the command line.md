@@ -49,5 +49,7 @@ Now you have the ability to toggle dark mode from command line.
 
 ![CLI](resource/Toggle_Dark_Mode_CLI.gif)
 
+[![asciicast](https://asciinema.org/a/241237.svg)](https://asciinema.org/a/241237)
+
 
 
